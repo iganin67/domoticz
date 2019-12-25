@@ -4,7 +4,7 @@ Docker for Domoticz (an open source home automation system) including 1wire/owfs
 Domoticz - http://www.domoticz.com/
 
 Based on the latest stable version of Domoticz. The docker exposes logs, backups, scripts and plugin folders to the host. The docker is customised for my own Domoticz setup.
-Added support 1wire vai owfs including the cron task to check is DS9404 is recable by checking the file presents (/mnt/1wire/81.74AD30000000) 
+Added support 1wire via owfs including the cron task to check whether 1wire USB DS9404r is accessible by checking the file presents (/mnt/1wire/81.74AD30000000) 
 
 ```
 sudo docker run -d \
